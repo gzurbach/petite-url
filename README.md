@@ -11,6 +11,10 @@ URL shortener in Node.js - because we can!
 
 The API should be accessible at `http://localhost:3000`.
 
+## Test
+
+To run the tests, simply run `npm test`.
+
 ## API Documentation
 
 ### GET /links
