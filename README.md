@@ -2,6 +2,15 @@
 
 URL shortener in Node.js - because we can!
 
+## Setup
+
+1. Install [Node.js v6+](https://github.com/creationix/nvm#install-script)
+2. Clone the repo
+3. `cd petite-url && npm install`
+4. `npm start`
+
+The API should be accessible at `http://localhost:3000`.
+
 ## API Documentation
 
 ### GET /links
@@ -32,7 +41,7 @@ Response:
   "longUrl": "http://boundless.co"
 }
 ```
-It is also possible to pass a custom ID (min 6 char), such as:
+You may also provide a custom ID for the URL (min 6 char), such as:
 ```
 POST http://localhost:3000/links
 {
