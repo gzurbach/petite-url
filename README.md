@@ -21,6 +21,14 @@ Example:
 ```
 GET http://localhost:3000/links?shortUrl=http%3A%2F%2Fpetite.url%2Ffoo123
 ```
+Response:
+```
+{
+  "id": "foo123",
+  "shortUrl": "http://petite.url/foo123",
+  "longUrl": "http://boundless.co"
+}
+```
 
 ### POST /links
 
