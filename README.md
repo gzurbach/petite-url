@@ -4,7 +4,7 @@ URL shortener in Node.js - because we can!
 
 ## Setup
 
-1. Install [Node.js v6+](https://github.com/creationix/nvm#install-script)
+1. Install [Node.js v6+](https://github.com/creationix/nvm#install-script) (run `nvm install 6` if using nvm)
 2. Clone the repo
 3. `cd petite-url && npm install`
 4. `npm start`
